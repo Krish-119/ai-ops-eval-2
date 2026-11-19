@@ -245,7 +245,7 @@ Accessed at [`http://localhost:8001/`](http://localhost:8001/), the single-page 
 
 ## 9. Step-by-Step Verification & Viva Demo Cheat Sheet
 
-Run these commands directly from the project root (`c:\Users\ariha\Documents\ai-ops-platform`) during viva presentation:
+Run these commands directly from the project root (`ai-ops-eval-2`) during viva presentation:
 
 ```powershell
 # 1. Show 3-node KIND cluster & running pods (3 microservices + 1 stateful Postgres)

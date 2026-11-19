@@ -99,7 +99,7 @@ SEED_TEAMS = [
 SEED_MEMBERS = {
     "Research": [("Research Lead", "research@company.local", "admin")],
     "Engineering": [
-        ("Arihant Jain", "arihant@company.local", "admin"),
+        ("Krish", "krish@company.local", "admin"),
         ("Platform Engineer", "eng@company.local", "developer"),
     ],
     "Support": [("Support Ops", "support@company.local", "developer")],

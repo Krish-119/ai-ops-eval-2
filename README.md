@@ -77,7 +77,8 @@ PostgreSQL does not support cross-database foreign keys or joins. Thus, referenc
 ### Setup & Run
 1. Clone the repository and navigate to the directory:
    ```powershell
-   cd C:\Users\ariha\Documents\ai-ops-platform
+   git clone https://github.com/Krish-119/ai-ops-eval-2.git
+   cd ai-ops-eval-2
    ```
 2. Verify `.env` matches your preferred credentials (defaults match `.env.example`).
 3. Start the entire platform from clean state:
@@ -183,3 +184,10 @@ The platform was benchmarked targeting the full end-to-end endpoint (`POST /agen
 
 **Q: How are budget alert duplicate spams prevented?**  
 *A: `costdb.alerts` has a unique constraint `UNIQUE (agent_id, alert_date, level)`. Upserts use PostgreSQL's `ON CONFLICT DO NOTHING`, guaranteeing that an agent exceeding its budget only triggers one alert per level per calendar day.*
+
+---
+
+## Author
+
+- **Krish** ([@Krish-119](https://github.com/Krish-119))
+
